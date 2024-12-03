@@ -64,55 +64,103 @@
                 <p class="photo__slogan">фото и видео</p>
                 <p class="photo__intro">не можете решиться на путешествие из-за курса? <br> фотографии помогут вам забыть о политике и экономике</p>
             </div>
-            <div class="gallary">
-                <ul class="gallary__list">
-                    <li class="gallary__item">
-                        <img src="#" alt="неродные просторы">
-                        <div class="like__conteiner">
-                            <h3 class="like__conteiner--title">неродные просторы</h3>
-                            <!-- как сверстать автора?-->
-                             <!-- как сверстать кнопку лайка?/добавить иконку в кнопку?-->
-                            <button class="like__counter"> </button>
-                            <span class="like__count">1350</span>
-                        </div>
-                    </li>
-                    <li class="gallary__item">
-                        <img src="#" alt="местная растительность">
-                        <div class="like__conteiner">
-                            <h3>местная растительность</h3>
-                            
-                            <button class="like__counter"> </button>
-                            <span class="like__count">143</span>
-                        </div>
-                    </li>
-                    <li class="gallary__item">
-                        <img src="#" alt="дорога на север">
-                        <div class="like__conteiner">
-                            <h3>дорога на север</h3>
-                            
-                            <button class="like__counter"> </button>
-                            <span class="like__count">96</span>
-                        </div>
-                    </li>
-                    <li class="gallary__item">
-                        <img src="#" alt="мост дьявола">
-                        <div class="like__conteiner">
-                            <h3>мост дьявола</h3>
-                            
-                            <button class="like__counter"> </button>
-                            <span class="like__count">254</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+            <figure class="gallery__item-wrapper">
+              <a class="gallery__link-image" href="#">
+                <picture>
+                <!-- добавить фото с адаптацией-->
+                </picture>
+              </a>
+              <figcaption class="gallery__item-caption">
+                <p class="gallery__description">неродные просторы
+                  <span class="gallery__author">Автор фото: Борис</span>
+                </p>
+                <button class="gallery__likes-quantity" type="button">
+                  1350</button>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item-wrapper">
+              <a class="gallery__link-image" href="#">
+                <picture>
+                <!-- добавить фото с адаптацией-->
+                </picture>
+              </a>
+              <figcaption class="gallery__item-caption">
+                <p class="gallery__description">неродные просторы
+                  <span class="gallery__author">Автор фото: Борис</span>
+                </p>
+                <button class="gallery__likes-quantity" type="button">
+                  1350</button>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item-wrapper">
+              <a class="gallery__link-image" href="#">
+                <picture>
+                <!-- добавить фото с адаптацией-->
+                </picture>
+              </a>
+              <figcaption class="gallery__item-caption">
+                <p class="gallery__description">местная растительность
+                  <span class="gallery__author">Автор фото: Юлиан</span>
+                </p>
+                <button class="gallery__likes-quantity" type="button">
+                  143</button>
+              </figcaption>
+            </figure>
+            <figure class="gallery__item-wrapper">
+              <a class="gallery__link-image" href="#">
+                <picture>
+                <!-- добавить фото с адаптацией-->
+                </picture>
+              </a>
+              <figcaption class="gallery__item-caption">
+                <p class="gallery__description">дорога на север
+                  <span class="gallery__author">Автор фото: Глеб</span>
+                </p>
+                <button class="gallery__likes-quantity" type="button">
+                  96</button>
+              </figcaption>
+            </figure>
         </section>
         <section class="video">
             <div class="video__wrapper">
                 <h2 class="video-hidden">Фото и видео</h2>
-                <p class="video__slogan">все еще сомневаетесь</p>
+                <p class="video__slogan">все еще сомневаетесь?</p>
                 <p class="video__intro">смотрите видеопрезентацию и скорее за билетами, пока они <br> пока они не подорожали в очередной раз</p>
             </div>
+            <!-- сверстать видео с элементами -->
         </section>
+        
+        <footer class="page-footer">
+          <div class="page-footer__wrapper">
+            <div class="page-footer__contacts contacts">
+              <b class="contacts__title">sedona</b>
+              <p class="contacts__text">
+                г. Санкт-Петербург, ул. Большая Конюшенная 19/8<br>
+                <a class="contacts__phone" href="tel:+78125556666">
+                  <span class="contacts__phone-mobile">Тел.:</span> +7 (812) 555-66-66
+                </a>
+              </p>
+            </div>
+            <div class="page-footer__social social">
+              <b class="social__title">Давайте отдыхать вместе!</b>
+              <ul class="social__list">
+                <li class="social__item">
+                  <a class="social__link social__link--vkontakte" href="https://vk.com/htmlacademy">Мы в Вконтакте</a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--facebook" href="https://www.facebook.com/htmlacademy">Мы в Фейсбуке</a>
+                </li>
+                <li class="social__item">
+                  <a class="social__link social__link--instagram" href="https://www.instagram.com/htmlacademy">Мы в Инстаграме</a>
+                </li>
+              </ul>
+            </div>
+            <div class="page-footer__copyright copyright">
+              <b class="copyright__text">Разработано:</b>
+              <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+            </div>
+          </div>
+        </footer>
     </main>
 </body>
 </html>
